@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Unieversity Exams</title>
+</head>
+<body>
+  <main>
+    <section class="main">
+      <div class="container-md">
+        <div class="main__inner">
+          <h1 class="p-5 main__title">
+            Your choosen universities
+          </h1>
+          
+          <ul class="d-flex main__list">
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/harvard.jpg" alt="University" width="100" height="100">
+            </li>
+
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/massachusetts.webp" alt="University" width="100" height="100">
+            </li>
+
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/oxford.png" alt="University" width="100" height="100">
+            </li>
+
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/stanford.png" alt="University" width="100" height="100">
+            </li>
+
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/tfi.jpg" alt="University" width="100" height="100">
+            </li>
+
+            <li class="p-5 main__item">
+              <img class="main__img" src="./img/Yale.jpg" alt="University" width="100" height="100">
+            </li>
+          </ul>
+
+          <form class="main__form" method="get" action="">
+            <label>
+              <input class="main__input"  type="number" name="user__mark" placeholder="enter your mark" autocomplete="off" required>
+            </label>   
+
+            <select class="main__select" aria-label="Default select example">
+              <option class="main__option" selected>
+                List of Universities
+              </option>
+              
+              <option class="harvard" value="130">
+                Harvard University
+              </option>
+              
+              <option class="massa" value="135">
+                Massachusetts University
+              </option>
+              
+              <option class="oxford" value="160">
+                Oxford University
+              </option>
+
+              <option class="stanford" value="150">
+                Stanford University
+              </option>
+
+              <option class="tmi" value="180">
+                Finance university of Tashkent 
+              </option>
+
+              <option class="yale" value="175">
+                Yale University
+              </option>
+            </select>
+
+            <button class="btn btn-primary" type="submit">
+              Check
+            </button>
+
+            <button class="btn btn-danger" type="reset">
+              Cancel
+            </button>
+          </form>
+
+          <p class="main__output">
+
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+
+  
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./JavaScript/script.js"></script>
+</body>
+</html>

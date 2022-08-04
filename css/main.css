@@ -1,0 +1,56 @@
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: cursive;
+  font-style: normal;
+}
+.main{
+  background-image: url(../img/Campus.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__title{
+  width: 600px;
+  margin: 0 auto;
+}
+.main__form{
+  width: 416px;
+  margin: 0 auto;
+}
+.main__select{
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: brown;
+  color: aquamarine;
+}
+label{
+  margin-bottom: 10px;  
+  width: 100%;
+}
+.main__input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: brown;
+  color: aquamarine;
+}
+.main__output{
+  text-align: center;
+  border: 2px solid blue;
+  background-color: skyblue;
+  padding: 5px;
+  border-radius: 5px; 
+  font-size: 30px;
+  font-weight: 700;
+  width: 400px;
+  margin: 0 auto;
+  color: coral;
+  margin-top: 30px;
+}
